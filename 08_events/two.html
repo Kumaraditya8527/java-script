@@ -21,7 +21,7 @@
     
     const changeMe=setTimeout(changeText,2000)
     document.getElementById('stop').addEventListener('click',function(){
-        clearInterval(changeMe)
+        clearTimeout(changeMe)
         console.log('stopped');
     })
 </script>
